@@ -1,0 +1,13 @@
+order,conversation,file,page,ratio,how,status
+1,M01,p1_moa_eye_closeup_b,01_eye_shape.html#make,16:9,새 대화에서 A 프롬프트 + Change only 문장을 함께 넣어 처음부터(작은 차이라 같은 대화에서는 반영이 약함),
+2,M01,p1_moa_three_quarter_b,01_eye_shape.html#make,2:3,A 결과를 첨부하고 Change only 문장으로,
+3,M02,p2_haru_eye_paint_b,02_eye_paint.html#make,16:9,A 결과를 첨부하고 Change only 문장으로,
+4,M02,p2_haru_expressions_b,02_eye_paint.html#make,16:9,새 대화에서 A 프롬프트 + Change only 문장을 함께 넣어 처음부터(작은 차이라 같은 대화에서는 반영이 약함),
+5,M03,p3_sia_profile_ear_b,03_nose_ear_mouth.html#make,2:3,A 결과를 첨부하고 Change only 문장으로,
+6,M03,p3_doctor_laugh_b,03_nose_ear_mouth.html#make,16:9,A 결과를 첨부하고 Change only 문장으로,
+7,M04,p4_hair_three_b,04_hair.html#make,16:9,A 결과를 첨부하고 Change only 문장으로,
+8,M04,p4_sia_wind_b,04_hair.html#make,16:9,A 결과를 첨부하고 Change only 문장으로,
+9,M05,p5_haru_sheet_b,05_ai_detail.html#make,16:9,A 결과를 첨부하고 Change only 문장으로,
+10,M05,p5_moa_detail_levels_b,05_ai_detail.html#make,16:9,A 결과를 첨부하고 Change only 문장으로,
+11,M06,f2_fixed,06_failure_lab.html#make,2:3,그림 생성이 아니라 '부분 수정(영역 칠하기)' 기능으로 — 안쪽 눈과 안쪽 눈썹만 칠하기,
+12,M06,f7_fixed,06_failure_lab.html#make,2:3,A 결과를 첨부하고 Change only 문장으로,
