@@ -1,6 +1,6 @@
 # 그림 요청 꾸러미 — 구조 먼저 그리기 연구실 04 · 디테일 편
 
-저장소: `adminmrobo/drawing_lab_04` (페이지는 완성 — 그림 자리는 '그림 준비 중'으로 비어 있음)
+저장소: `adminmrobo/drawing_lab_04` (v1.1에서 26장을 받아 넣었고, v1.2에서 단계 그림 10장(C07·C08)을 더 요청)
 만드는 도구: Genspark 이미지 · 받은 그림은 zip으로 돌려주시면 됩니다(대화 단위로 나눠 여러 번 주셔도 됩니다).
 
 ## 1. 그림 규칙
@@ -21,6 +21,8 @@
 | 4 | `prompts/C04_part4_5.md` | 4 | 16:9 | haru·sia·moa anime_base |
 | 5 | `prompts/C05_fail_A.md` | 4 | 2:3 | 해당 캐릭터 기준 그림 |
 | 6 | `prompts/C06_fail_B.md` | 4 | 2:3 | 해당 캐릭터 기준 그림 |
+| 7 (v1.2 추가) | `prompts/C07_steps_A.md` | 5 | 16:9 | moa·sia·haru anime_base·sheet |
+| 8 (v1.2 추가) | `prompts/C08_steps_B.md` | 5 | 16:9 | sia·moa·haru anime_base·sheet |
 
 ## 3. 저장 이름
 `checklist.csv`의 `file` 열 이름 그대로(png·jpg). 받으면 WebP로 바꿔 `assets/img/`에 넣습니다(표지 1600×900, 가로 1200×675, 세로 600×900).

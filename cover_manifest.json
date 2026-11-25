@@ -3,7 +3,7 @@
  "title_ko": "구조 먼저 그리기 연구실 04 · 디테일 편",
  "site_url": "https://adminmrobo.github.io/drawing_lab_04/",
  "site_title": "구조 먼저 그리기 연구실 04 · 디테일 편 — 육각형 하나, 덩어리 몇 개",
- "version": "v1.1",
+ "version": "v1.2",
  "date": "2026-11-25",
  "ontology": {
   "pages": [
@@ -228,6 +228,86 @@
    "ratio": "2:3",
    "style": "anime",
    "status": "done"
+  },
+  {
+   "key": "p1_moa_profile_cornea",
+   "page": "01_eye_shape.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p1_sia_lash_density",
+   "page": "01_eye_shape.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p2_sia_sclera_skin",
+   "page": "02_eye_paint.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p2_moa_mouths",
+   "page": "02_eye_paint.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p3_haru_nose",
+   "page": "03_nose_ear_mouth.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p3_sia_molars",
+   "page": "03_nose_ear_mouth.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p4_moa_hair_blocks",
+   "page": "04_hair.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p4_haru_crown_flow",
+   "page": "04_hair.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p5_sia_paint_steps",
+   "page": "05_ai_detail.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "p5_haru_inpaint_mask",
+   "page": "05_ai_detail.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "pending",
+   "added": "v1.2"
   }
  ],
  "make_compare_images": [
@@ -368,7 +448,139 @@
    "key": "d12_sia_adult_smile",
    "part": "06",
    "status": "done"
+  },
+  {
+   "key": "d13_haru_profile_eye",
+   "part": "01",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d14_moa_eye_density",
+   "part": "01",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d15_haru_high",
+   "part": "01",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d15_haru_low",
+   "part": "01",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d16_sia_mouth_closed",
+   "part": "02",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d16_sia_mouth_open",
+   "part": "02",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d17_moa_sad_hold",
+   "part": "02",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d17_moa_sad_cry",
+   "part": "02",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d18_doctor_eye_sclera",
+   "part": "02",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d19_haru_profile_ear",
+   "part": "03",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d20_sia_semireal_nose",
+   "part": "03",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d21_doctor_front_ears",
+   "part": "03",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d22_haru_top_flow",
+   "part": "04",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d23_doctor_hair_blocks",
+   "part": "04",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d24_moa_low_ponytail",
+   "part": "04",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d25_haru_mouth_fix",
+   "part": "05",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d26_haru_semireal",
+   "part": "05",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d27_moa_brow_sad",
+   "part": "05",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d28_doctor_low_ear",
+   "part": "06",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d29_haru_two_mistakes",
+   "part": "06",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d29_haru_hair_fixed",
+   "part": "06",
+   "status": "pending",
+   "added": "v1.2"
+  },
+  {
+   "key": "d30_haru_adult_surprise",
+   "part": "06",
+   "status": "pending",
+   "added": "v1.2"
   }
  ],
- "notes": "2026-11-25 Genspark 결과 52장을 모두 받아 넣었습니다(표지 1600×900, 가로 1200×675, 세로 600×900 WebP). 그림 설명·실제 결과는 build/img_notes.py와 build/content_make.py RES에 적었고, 요청과 다르게 나온 그림은 result에 적었습니다."
+ "notes": "2026-11-25 Genspark 결과 52장을 모두 받아 넣었습니다(표지 1600×900, 가로 1200×675, 세로 600×900 WebP). 그림 설명·실제 결과는 build/img_notes.py와 build/content_make.py RES에 적었고, 요청과 다르게 나온 그림은 result에 적었습니다. v1.2(2026-11-25): 그림이 없던 단계 10곳에 단계 그림을, 부마다 연습 과제 3개(모두 18개, 그림 22장)를 더했습니다. 새 그림 32장은 status pending이며 페이지에서는 '그림 준비 중' 자리로 보입니다."
 }

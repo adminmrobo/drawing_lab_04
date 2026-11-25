@@ -100,6 +100,40 @@ C4 = [
    "Three front-view head-and-shoulders portraits of " + who("moa") + " in a row, in three levels of detail: 1) simple deformed style (nose as a tiny dot, one thick lash line, large highlights, hair as one or two shapes); 2) anime style (small nose tip with a short bridge, a few lash strands, two highlights, hair in four clumps); 3) semi-realistic painting (nose bridge with soft shading, many fine lashes and iris lines, small highlights, hair with fine strands).",
    "Keep the same structure in all three: outer eye corners slightly higher than the inner corners, same hair silhouette, white frilled headband and the ribbon over her LEFT ear. All clearly adult. Light from the upper left."),
 ]
+C7 = [
+ body("p1_moa_profile_cornea", "01_eye_shape.html", "1부 2단계", "왼쪽을 보는 모아의 옆얼굴 클로즈업 — 눈 맨 앞에 투명한 각막이 살짝 볼록하고, 호박색 홍채는 그 뒤에 얇은 타원, 동공은 홍채 안쪽에 앉음", "16:9",
+   "Side-profile close-up facing LEFT of " + who("moa") + ", from the forehead to the chin, calm expression. The white ribbon over her LEFT ear is on the far side of the head and hidden.",
+   "Eye structure (most important): seen from the side, a clear glassy cornea bulges slightly at the very front of the eye with a small highlight; behind it the amber iris is a thin tall tilted ellipse; the dark pupil sits inside the iris BEHIND the cornea and never sticks out past the eye surface. Light from the upper left."),
+ body("p1_sia_lash_density", "01_eye_shape.html", "1부 4단계", "시아의 두 눈 클로즈업 — 위 속눈썹은 짙은 선이 빽빽하고, 회색 홍채에는 가는 선이 몇 개만 성기게, 아래 속눈썹도 몇 가닥뿐", "16:9",
+   "Extreme close-up of both eyes of " + who("sia") + ", front view, from the eyebrows to just below the eyes, calm gaze.",
+   "Line density (most important): the upper eyelashes are drawn with MANY dense dark strokes packed tightly together; the gray iris has only a FEW sparse thin radial lines, clearly fewer than the lashes; the lower lashes are a few short sparse strokes. Light from the upper left."),
+ body("p2_sia_sclera_skin", "02_eye_paint.html", "2부 1단계", "시아의 얼굴 클로즈업 — 흰자가 순백이 아니라 흰 피부보다 조금만 밝은 미색이고, 위 눈꺼풀 아래에 연한 그림자가 있어 눈이 얼굴에 녹아듦", "16:9",
+   "Close-up of the face of " + who("sia") + ", front view, from the eyebrows to the chin, soft calm expression.",
+   "Sclera color (most important): the whites of the eyes are a soft off-white only slightly brighter than her fair skin, never pure bright white, with a gentle gray-pink shadow under the upper eyelid; the gray irises have a darker top. Light from the upper left."),
+ body("p2_moa_mouths", "02_eye_paint.html", "2부 4단계", "같은 눈의 모아 세 얼굴 — 눈과 눈썹은 모두 같은 다정한 기쁨이고, 입만 왼쪽부터 다문 미소·살짝 벌린 미소·크게 웃는 입", "16:9",
+   "Three front-view head-and-shoulders portraits of " + who("moa") + " side by side, evenly spaced.",
+   "Only the mouth changes (most important): all three faces have exactly the SAME gentle happy eyes and soft arched relaxed eyebrows; LEFT a closed soft smile with the lips together, MIDDLE a slightly open smile, RIGHT a wide open laughing mouth showing the upper teeth as a straight row. Light from the upper left."),
+ body("p3_haru_nose", "03_nose_ear_mouth.html", "3부 1단계", "비스듬히 고개를 돌린 하루의 얼굴 클로즈업 — 코는 그늘진 쪽의 짧은 콧날 선과 코끝 아래 작은 그림자 두 가지만으로 그려 눈·입과 그려 넣은 양이 같음", "16:9",
+   "Close-up of the face of " + who("haru") + " in three-quarter view turned to her right (our left), from the eyebrows to the chin, gentle smile.",
+   "Nose (most important): the nose is drawn with only two marks matching the detail of the anime eyes — a short line for the nose bridge on the shadow side and a small soft shadow under the tip; no nostrils, no nose wings. Light from the upper left."),
+]
+C8 = [
+ body("p3_sia_molars", "03_nose_ear_mouth.html", "3부 4단계", "비스듬히 위에서 본, 크게 웃는 시아의 입 클로즈업 — 위 앞니는 일자, 아래 이는 U자, 양쪽 어금니가 작아지며 입 안쪽 한 점으로 모여 들어감", "16:9",
+   "Close-up of " + who("sia") + " laughing with her mouth wide open, three-quarter view turned to her right (our left), seen slightly from above, from the eyes to the chin.",
+   "Teeth (most important): the upper front teeth form a nearly straight row; the lower teeth curve as a U; the back teeth on both sides get smaller and recede inward toward the jaw hinge so both rows head toward one point deep inside the mouth; the back teeth on the far side are mostly hidden by the cheek. Light from the upper left."),
+ body("p4_moa_hair_blocks", "04_hair.html", "4부 2단계", "같은 모아를 두 장 나란히 — 왼쪽은 머리를 다섯 덩어리(앞머리·양옆·정수리·뒤)의 납작한 색으로만 칠했고, 오른쪽은 같은 덩어리 안에 머리결을 그려 완성", "16:9",
+   "Two panels side by side of the same three-quarter head-and-shoulders portrait of " + who("moa") + ".",
+   "Hair blocking (most important): LEFT panel — the hair painted as five large flat clumps in slightly different beige tones with no strand lines (front bangs, left side, right side, top, back); RIGHT panel — the finished hair with strands and highlights drawn inside the SAME five clumps; the clump borders match between the two panels. The face and clothes are identical in both panels. Light from the upper left."),
+ body("p4_haru_crown_flow", "04_hair.html", "4부 3단계", "뒤쪽 위에서 내려다본 하루 — 이마에서 정수리까지 가르마가 이어지고, 머리가 두피 전체에서 나와 번 두 개를 감싸며 등으로 흘러내림", "16:9",
+   "View from above and slightly behind " + who("haru") + ", head and shoulders, she looks down at a desk.",
+   "Hair flow (most important): a clear center parting runs from the forehead to the crown; the hair grows from the whole scalp; every clump starts at the parting or the crown, wraps around the two round hair buns and flows down her back; the navy streaks follow the same flow. Light from the upper left."),
+ body("p5_sia_paint_steps", "05_ai_detail.html", "5부 2단계", "시아의 두 눈 클로즈업 두 장 — 왼쪽은 밑색만(새하얀 흰자, 한 색 회색 눈동자, 검은 선), 오른쪽은 다섯 조각으로 칠해 미색 흰자·어두운 위쪽·따뜻한 아래쪽 빛·하이라이트 둘·갈색 선", "16:9",
+   "Two panels side by side of the same close-up of both eyes of " + who("sia") + ", front view, from the eyebrows to just below the eyes.",
+   "Painting steps (most important): LEFT panel — flat base colors only: pure white sclera, one flat gray iris, black line art, no shading; RIGHT panel — finished painting: off-white sclera with a soft shadow under the upper lid, darker upper iris, a subtle warm glow on the lower iris while it stays gray, one large and one small highlight, brown-tinted line art around the light areas. The eye shapes are identical in both panels."),
+ body("p5_haru_inpaint_mask", "05_ai_detail.html", "5부 3단계", "그림판 화면 속 하루의 정면 얼굴 — 두 눈과 두 눈썹 위에만 반투명한 분홍 가림 영역이 조금 여유 있게 덮이고, 머리·코·입·옷은 가리지 않음", "16:9",
+   "Front-view head-and-shoulders portrait of " + who("haru") + ", gentle smile, shown on a plain light digital painting canvas.",
+   "Inpainting mask (most important): a semi-transparent pink overlay covers ONLY her two eyes and two eyebrows with a small margin around them; the hair, bangs, nose, mouth and clothes are left uncovered and clearly visible. No interface text, no buttons, no cursor, no tool icons."),
+]
 FAILNOTE = "This is an intentional FAILURE example for a teaching page: draw the mistake described below clearly and convincingly, while everything else stays correct."
 def fail(file, alt, scene, mistake):
     p = f"Illustration, vertical 2:3.\n{ANI}\n{FAILNOTE}\n{scene}\nIntentional mistake: {mistake}\nPlain off-white studio background.\n{END}"
@@ -119,6 +153,8 @@ C6 = [
 CONV = [("C01_covers_A", "표지 A (픽셀아트, 16:9)", "16:9", "refs 전부", C1), ("C02_covers_B", "표지 B (픽셀아트, 16:9)", "16:9", "refs 전부 + C01에서 받은 cover_index", C2),
         ("C03_part1_3", "1·2·3부 눈·칠하기·코귀입", "16:9", "refs/moa_anime_base.png, refs/moa_sheet.png, refs/haru_anime_base.png, refs/sia_anime_base.png, refs/doctor_sheet.png", C3),
         ("C04_part4_5", "4·5부 머리카락·AI", "16:9", "refs/haru_anime_base.png, refs/sia_anime_base.png, refs/moa_anime_base.png", C4),
+        ("C07_steps_A", "단계 그림 추가 A — 1·2·3부", "16:9", "refs/moa_anime_base.png, refs/moa_sheet.png, refs/sia_anime_base.png, refs/sia_sheet.png, refs/haru_anime_base.png, refs/haru_sheet.png", C7),
+        ("C08_steps_B", "단계 그림 추가 B — 3·4·5부", "16:9", "refs/sia_anime_base.png, refs/sia_sheet.png, refs/moa_anime_base.png, refs/moa_sheet.png, refs/haru_anime_base.png, refs/haru_sheet.png", C8),
         ("C05_fail_A", "6부 실패 A", "2:3", "해당 캐릭터의 refs/*_anime_base.png 또는 *_sheet.png", C5), ("C06_fail_B", "6부 실패 B", "2:3", "해당 캐릭터의 refs/*_anime_base.png 또는 *_sheet.png", C6)]
 HEAD_PIX = "웹페이지 맨 위에 거는 표지 그림을 한 장씩 차례로 만들어 줘.\n- 비율 16:9, 가로 1920px 이상\n- 그림체는 반드시 16비트 RPG풍 픽셀아트 (네모 픽셀이 보이게, 매끈한 일러스트·벡터·수채화·3D 금지)\n- 첨부한 참고 이미지의 캐릭터를 같은 외형으로 그릴 것\n- 그림 안에 글자·숫자·로고 금지\n- 얼굴과 손은 가장자리에서 떨어진 가운데 영역에, 왼쪽 아래 구석은 밝고 단순하게\n아래 영어 프롬프트를 하나씩 써 줘."
 HEAD_ANI = "해설 페이지 본문에 넣을 그림을 한 장씩 차례로 만들어 줘.\n- 비율은 각 프롬프트 첫 줄을 따를 것(16:9는 가로 1920px 이상, 2:3은 세로 1536px 이상)\n- 첨부한 참고 이미지의 캐릭터 외형(얼굴·머리·색·장식)을 똑같이 지킬 것\n- 등장인물은 모두 20대 성인(박사는 30대 성인 남성). 노출·과장된 체형·교복 느낌·어려 보이는 얼굴 금지\n- 그림 안에 글자·숫자·로고 금지, 유명 애니 캐릭터와 닮으면 다시 만들 것\n아래 영어 프롬프트를 하나씩 써 줘."
@@ -128,7 +164,7 @@ ATTACH_OF = {_c[0]: _c[3] for _c in CONV}
 
 README = """# 그림 요청 꾸러미 — 구조 먼저 그리기 연구실 04 · 디테일 편
 
-저장소: `adminmrobo/drawing_lab_04` (페이지는 완성 — 그림 자리는 '그림 준비 중'으로 비어 있음)
+저장소: `adminmrobo/drawing_lab_04` (v1.1에서 26장을 받아 넣었고, v1.2에서 단계 그림 10장(C07·C08)을 더 요청)
 만드는 도구: Genspark 이미지 · 받은 그림은 zip으로 돌려주시면 됩니다(대화 단위로 나눠 여러 번 주셔도 됩니다).
 
 ## 1. 그림 규칙
@@ -149,6 +185,8 @@ README = """# 그림 요청 꾸러미 — 구조 먼저 그리기 연구실 04 �
 | 4 | `prompts/C04_part4_5.md` | 4 | 16:9 | haru·sia·moa anime_base |
 | 5 | `prompts/C05_fail_A.md` | 4 | 2:3 | 해당 캐릭터 기준 그림 |
 | 6 | `prompts/C06_fail_B.md` | 4 | 2:3 | 해당 캐릭터 기준 그림 |
+| 7 (v1.2 추가) | `prompts/C07_steps_A.md` | 5 | 16:9 | moa·sia·haru anime_base·sheet |
+| 8 (v1.2 추가) | `prompts/C08_steps_B.md` | 5 | 16:9 | sia·moa·haru anime_base·sheet |
 
 ## 3. 저장 이름
 `checklist.csv`의 `file` 열 이름 그대로(png·jpg). 받으면 WebP로 바꿔 `assets/img/`에 넣습니다(표지 1600×900, 가로 1200×675, 세로 600×900).

@@ -12,7 +12,7 @@ from img_notes import ALT, DRILL_RES, RETRY_RES, RETRY3_RES, FAIL_NOTE
 from content_drill import DRILL, RETRY, BASE_OF, RETRY3
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VER = "v1.1"
+VER = "v1.2"
 DATE = "2026-11-25"
 SITE = "https://adminmrobo.github.io/drawing_lab_04/"
 PREV_SITE = "https://adminmrobo.github.io/drawing_lab_03/"
@@ -374,7 +374,7 @@ def drill_section(P):
     keys = [p[2] for d in ds for p in d["prompts"]]
     made = "예상 결과 그림은 아래 프롬프트로 실제로 만든 그림입니다. 요청과 다르게 나온 곳은 '실제 결과'에 그대로 적었습니다." if all(has_img(k) for k in keys) else "예상 결과 그림은 아래 프롬프트로 실제로 만든 그림입니다(아직 받지 않은 그림은 '그림 준비 중'). 요청과 다르게 나온 곳은 '실제 결과'에 그대로 적었습니다."
     out = f"""<section class="room" id="drill"><div class="wrap"><div class="roomno">{P['no']}부 · 연습 과제</div><h2>프롬프트 연습 과제</h2>
-<div class="box"><p>이 부의 원리를 내 손으로 프롬프트에 옮겨 보는 과제 두 개입니다. 과제마다 <b>목표 → 순서 → 넣을 프롬프트 → 확인할 것 → 예상 결과 → 자주 생기는 문제</b> 순서로 적었습니다. {made} 결과는 매번 조금씩 다르니, 그림이 똑같지 않아도 '확인할 것'이 맞으면 성공입니다.</p></div>"""
+<div class="box"><p>이 부의 원리를 내 손으로 프롬프트에 옮겨 보는 과제 {len(ds)}개입니다. 과제마다 <b>목표 → 순서 → 넣을 프롬프트 → 확인할 것 → 예상 결과 → 자주 생기는 문제</b> 순서로 적었습니다. {made} 결과는 매번 조금씩 다르니, 그림이 똑같지 않아도 '확인할 것'이 맞으면 성공입니다.</p></div>"""
     for i, d in enumerate(ds, 1):
         steps = "".join(f"<li>{E(x)}</li>" for x in d["steps"])
         prs = ""
