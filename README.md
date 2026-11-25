@@ -29,6 +29,6 @@ python3 build/check_pages.py && python3 build/check_missions.py
 ```
 작성 방침: `docs/WRITING_POLICY.md` · 그림 요청문: `docs/image_requests/`(표지·본문·실패 26장), `docs/image_requests_make/`(비교 12장), `docs/image_requests_drill/`(연습 과제 14장) · 받은 그림 설명은 `build/img_notes.py` · 페르소나 검사: `docs/persona_review.md`
 
-그림은 아직 받기 전이라 모든 그림 자리는 '그림 준비 중'이고, 표지는 픽셀 대체 표지로 보입니다. 실험 패널은 그림 없이도 모두 동작합니다.
+그림 52장(표지 8 · 본문·실패 18 · 비교 12 · 연습 과제 14)은 Genspark로 만들어 v1.1(2026-11-25)에 넣었습니다. 요청과 다르게 나온 그림은 그림 설명과 '실제 결과'에 있는 그대로 적었습니다. 실험 패널은 그림 없이도 모두 동작합니다.
 
 캐릭터 이름·설정·그림은 저작권자 안상선의 허락 없이 사용할 수 없습니다. 캐릭터 그림: [fruitfly-lab-expressions](https://github.com/adminmrobo/fruitfly-lab-expressions).

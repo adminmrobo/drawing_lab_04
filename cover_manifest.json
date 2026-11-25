@@ -1,365 +1,374 @@
 {
-  "series_ko": "연구실 특별편 · 그리기와 렌더링",
-  "title_ko": "구조 먼저 그리기 연구실 04 · 디테일 편",
-  "site_url": "https://adminmrobo.github.io/drawing_lab_04/",
-  "site_title": "구조 먼저 그리기 연구실 04 · 디테일 편 — 육각형 하나, 덩어리 몇 개",
-  "version": "v1.0",
-  "date": "2026-11-25",
-  "ontology": {
-    "pages": [
-      {
-        "path": "index.html",
-        "kg": true,
-        "export": true
-      },
-      {
-        "path": "01_eye_shape.html",
-        "kg": true,
-        "export": true
-      },
-      {
-        "path": "02_eye_paint.html",
-        "kg": true,
-        "export": true
-      },
-      {
-        "path": "03_nose_ear_mouth.html",
-        "kg": true,
-        "export": true
-      },
-      {
-        "path": "04_hair.html",
-        "kg": true,
-        "export": true
-      },
-      {
-        "path": "05_ai_detail.html",
-        "kg": true,
-        "export": true
-      },
-      {
-        "path": "06_failure_lab.html",
-        "kg": true,
-        "export": true
-      },
-      {
-        "path": "practice/index.html",
-        "kg": true,
-        "export": true
-      }
-    ]
+ "series_ko": "연구실 특별편 · 그리기와 렌더링",
+ "title_ko": "구조 먼저 그리기 연구실 04 · 디테일 편",
+ "site_url": "https://adminmrobo.github.io/drawing_lab_04/",
+ "site_title": "구조 먼저 그리기 연구실 04 · 디테일 편 — 육각형 하나, 덩어리 몇 개",
+ "version": "v1.1",
+ "date": "2026-11-25",
+ "ontology": {
+  "pages": [
+   {
+    "path": "index.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "01_eye_shape.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "02_eye_paint.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "03_nose_ear_mouth.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "04_hair.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "05_ai_detail.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "06_failure_lab.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "practice/index.html",
+    "kg": true,
+    "export": true
+   }
+  ]
+ },
+ "covers": [
+  {
+   "key": "cover_index",
+   "page": "index.html",
+   "style": "16-bit pixel art",
+   "status": "done"
   },
-  "covers": [
-    {
-      "key": "cover_index",
-      "page": "index.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    },
-    {
-      "key": "cover_01",
-      "page": "01_eye_shape.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    },
-    {
-      "key": "cover_02",
-      "page": "02_eye_paint.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    },
-    {
-      "key": "cover_03",
-      "page": "03_nose_ear_mouth.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    },
-    {
-      "key": "cover_04",
-      "page": "04_hair.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    },
-    {
-      "key": "cover_05",
-      "page": "05_ai_detail.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    },
-    {
-      "key": "cover_06",
-      "page": "06_failure_lab.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    },
-    {
-      "key": "cover_07",
-      "page": "practice/index.html",
-      "style": "16-bit pixel art",
-      "status": "pending"
-    }
-  ],
-  "images": [
-    {
-      "key": "p1_moa_eye_closeup",
-      "page": "01_eye_shape.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p1_moa_three_quarter",
-      "page": "01_eye_shape.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p2_haru_eye_paint",
-      "page": "02_eye_paint.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p2_haru_expressions",
-      "page": "02_eye_paint.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p3_sia_profile_ear",
-      "page": "03_nose_ear_mouth.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p3_doctor_laugh",
-      "page": "03_nose_ear_mouth.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p4_hair_three",
-      "page": "04_hair.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p4_sia_wind",
-      "page": "04_hair.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p5_haru_sheet",
-      "page": "05_ai_detail.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "p5_moa_detail_levels",
-      "page": "05_ai_detail.html",
-      "ratio": "16:9",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f1_pupil",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f2_far_eye",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f3_ear_low",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f4_molars",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f5_flat_hair",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f6_nose",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f7_sticker_eyes",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    },
-    {
-      "key": "f8_brow",
-      "page": "06_failure_lab.html",
-      "ratio": "2:3",
-      "style": "anime",
-      "status": "pending"
-    }
-  ],
-  "make_compare_images": [
-    {
-      "key": "p1_moa_eye_closeup_b",
-      "page": "01_eye_shape.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p1_moa_three_quarter_b",
-      "page": "01_eye_shape.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p2_haru_eye_paint_b",
-      "page": "02_eye_paint.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p2_haru_expressions_b",
-      "page": "02_eye_paint.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p3_sia_profile_ear_b",
-      "page": "03_nose_ear_mouth.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p3_doctor_laugh_b",
-      "page": "03_nose_ear_mouth.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p4_hair_three_b",
-      "page": "04_hair.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p4_sia_wind_b",
-      "page": "04_hair.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p5_haru_sheet_b",
-      "page": "05_ai_detail.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "p5_moa_detail_levels_b",
-      "page": "05_ai_detail.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "f2_fixed",
-      "page": "06_failure_lab.html#make",
-      "status": "pending"
-    },
-    {
-      "key": "f7_fixed",
-      "page": "06_failure_lab.html#make",
-      "status": "pending"
-    }
-  ],
-  "drill_images": [
-    {
-      "key": "d1_moa_up",
-      "part": "01",
-      "status": "pending"
-    },
-    {
-      "key": "d1_moa_down",
-      "part": "01",
-      "status": "pending"
-    },
-    {
-      "key": "d2_sia_threequarter",
-      "part": "01",
-      "status": "pending"
-    },
-    {
-      "key": "d3_haru_eye_layers",
-      "part": "02",
-      "status": "pending"
-    },
-    {
-      "key": "d4_haru_anger_low",
-      "part": "02",
-      "status": "pending"
-    },
-    {
-      "key": "d4_haru_anger_high",
-      "part": "02",
-      "status": "pending"
-    },
-    {
-      "key": "d5_moa_nose_match",
-      "part": "03",
-      "status": "pending"
-    },
-    {
-      "key": "d6_doctor_teeth",
-      "part": "03",
-      "status": "pending"
-    },
-    {
-      "key": "d7_moa_hair_blocks",
-      "part": "04",
-      "status": "pending"
-    },
-    {
-      "key": "d8_sia_wind_point",
-      "part": "04",
-      "status": "pending"
-    },
-    {
-      "key": "d9_haru_detail_sentence",
-      "part": "05",
-      "status": "pending"
-    },
-    {
-      "key": "d10_haru_eye_fix",
-      "part": "05",
-      "status": "pending"
-    },
-    {
-      "key": "d11_moa_brow_fix",
-      "part": "06",
-      "status": "pending"
-    },
-    {
-      "key": "d12_sia_adult_smile",
-      "part": "06",
-      "status": "pending"
-    }
-  ],
-  "notes": "그림을 받기 전(2026-11-25). 모든 그림 자리는 '그림 준비 중'이며 픽셀 대체 표지를 씁니다. 그림이 들어오면 status를 done으로 바꾸고 build/img_notes.py에 실제 그림 설명을 적습니다."
+  {
+   "key": "cover_01",
+   "page": "01_eye_shape.html",
+   "style": "16-bit pixel art",
+   "status": "done"
+  },
+  {
+   "key": "cover_02",
+   "page": "02_eye_paint.html",
+   "style": "16-bit pixel art",
+   "status": "done"
+  },
+  {
+   "key": "cover_03",
+   "page": "03_nose_ear_mouth.html",
+   "style": "16-bit pixel art",
+   "status": "done"
+  },
+  {
+   "key": "cover_04",
+   "page": "04_hair.html",
+   "style": "16-bit pixel art",
+   "status": "done"
+  },
+  {
+   "key": "cover_05",
+   "page": "05_ai_detail.html",
+   "style": "16-bit pixel art",
+   "status": "done"
+  },
+  {
+   "key": "cover_06",
+   "page": "06_failure_lab.html",
+   "style": "16-bit pixel art",
+   "status": "done"
+  },
+  {
+   "key": "cover_07",
+   "page": "practice/index.html",
+   "style": "16-bit pixel art",
+   "status": "done"
+  }
+ ],
+ "images": [
+  {
+   "key": "p1_moa_eye_closeup",
+   "page": "01_eye_shape.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p1_moa_three_quarter",
+   "page": "01_eye_shape.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p2_haru_eye_paint",
+   "page": "02_eye_paint.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p2_haru_expressions",
+   "page": "02_eye_paint.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p3_sia_profile_ear",
+   "page": "03_nose_ear_mouth.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p3_doctor_laugh",
+   "page": "03_nose_ear_mouth.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p4_hair_three",
+   "page": "04_hair.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p4_sia_wind",
+   "page": "04_hair.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p5_haru_sheet",
+   "page": "05_ai_detail.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "p5_moa_detail_levels",
+   "page": "05_ai_detail.html",
+   "ratio": "16:9",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "f1_pupil",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "f2_far_eye",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done",
+   "result": "실수가 약하게 재현됨"
+  },
+  {
+   "key": "f3_ear_low",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done",
+   "result": "실수 재현 안 됨"
+  },
+  {
+   "key": "f4_molars",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done",
+   "result": "실수 재현 안 됨"
+  },
+  {
+   "key": "f5_flat_hair",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "f6_nose",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "f7_sticker_eyes",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done"
+  },
+  {
+   "key": "f8_brow",
+   "page": "06_failure_lab.html",
+   "ratio": "2:3",
+   "style": "anime",
+   "status": "done"
+  }
+ ],
+ "make_compare_images": [
+  {
+   "key": "p1_moa_eye_closeup_b",
+   "page": "01_eye_shape.html#make",
+   "status": "done",
+   "result": "캐릭터가 사라지고 실사 눈 사진이 나옴"
+  },
+  {
+   "key": "p1_moa_three_quarter_b",
+   "page": "01_eye_shape.html#make",
+   "status": "done"
+  },
+  {
+   "key": "p2_haru_eye_paint_b",
+   "page": "02_eye_paint.html#make",
+   "status": "done"
+  },
+  {
+   "key": "p2_haru_expressions_b",
+   "page": "02_eye_paint.html#make",
+   "status": "done",
+   "result": "하루가 사라지고 실사 인물 여섯 명이 나옴"
+  },
+  {
+   "key": "p3_sia_profile_ear_b",
+   "page": "03_nose_ear_mouth.html#make",
+   "status": "done",
+   "result": "귀가 조금만 내려감"
+  },
+  {
+   "key": "p3_doctor_laugh_b",
+   "page": "03_nose_ear_mouth.html#make",
+   "status": "done",
+   "result": "거의 반영 안 됨"
+  },
+  {
+   "key": "p4_hair_three_b",
+   "page": "04_hair.html#make",
+   "status": "done"
+  },
+  {
+   "key": "p4_sia_wind_b",
+   "page": "04_hair.html#make",
+   "status": "done"
+  },
+  {
+   "key": "p5_haru_sheet_b",
+   "page": "05_ai_detail.html#make",
+   "status": "done",
+   "result": "반영 안 됨"
+  },
+  {
+   "key": "p5_moa_detail_levels_b",
+   "page": "05_ai_detail.html#make",
+   "status": "done"
+  },
+  {
+   "key": "f2_fixed",
+   "page": "06_failure_lab.html#make",
+   "status": "done",
+   "result": "거의 같음"
+  },
+  {
+   "key": "f7_fixed",
+   "page": "06_failure_lab.html#make",
+   "status": "done"
+  }
+ ],
+ "drill_images": [
+  {
+   "key": "d1_moa_up",
+   "part": "01",
+   "status": "done"
+  },
+  {
+   "key": "d1_moa_down",
+   "part": "01",
+   "status": "done"
+  },
+  {
+   "key": "d2_sia_threequarter",
+   "part": "01",
+   "status": "done"
+  },
+  {
+   "key": "d3_haru_eye_layers",
+   "part": "02",
+   "status": "done"
+  },
+  {
+   "key": "d4_haru_anger_low",
+   "part": "02",
+   "status": "done"
+  },
+  {
+   "key": "d4_haru_anger_high",
+   "part": "02",
+   "status": "done"
+  },
+  {
+   "key": "d5_moa_nose_match",
+   "part": "03",
+   "status": "done"
+  },
+  {
+   "key": "d6_doctor_teeth",
+   "part": "03",
+   "status": "done"
+  },
+  {
+   "key": "d7_moa_hair_blocks",
+   "part": "04",
+   "status": "done"
+  },
+  {
+   "key": "d8_sia_wind_point",
+   "part": "04",
+   "status": "done"
+  },
+  {
+   "key": "d9_haru_detail_sentence",
+   "part": "05",
+   "status": "done"
+  },
+  {
+   "key": "d10_haru_eye_fix",
+   "part": "05",
+   "status": "done"
+  },
+  {
+   "key": "d11_moa_brow_fix",
+   "part": "06",
+   "status": "done"
+  },
+  {
+   "key": "d12_sia_adult_smile",
+   "part": "06",
+   "status": "done"
+  }
+ ],
+ "notes": "2026-11-25 Genspark 결과 52장을 모두 받아 넣었습니다(표지 1600×900, 가로 1200×675, 세로 600×900 WebP). 그림 설명·실제 결과는 build/img_notes.py와 build/content_make.py RES에 적었고, 요청과 다르게 나온 그림은 result에 적었습니다."
 }

@@ -8,11 +8,11 @@ from content_a import P1, P2, P3
 from content_b import P4, P5, P6
 from content_make import MAKE
 from make_requests import PROMPTS, CONV_OF, ATTACH_OF
-from img_notes import ALT, DRILL_RES, RETRY_RES, RETRY3_RES
+from img_notes import ALT, DRILL_RES, RETRY_RES, RETRY3_RES, FAIL_NOTE
 from content_drill import DRILL, RETRY, BASE_OF, RETRY3
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VER = "v1.0"
+VER = "v1.1"
 DATE = "2026-11-25"
 SITE = "https://adminmrobo.github.io/drawing_lab_04/"
 PREV_SITE = "https://adminmrobo.github.io/drawing_lab_03/"
@@ -206,7 +206,8 @@ def outro(P):
 """
 
 def failcard(f):
-    note = f'<p class="hint">{E(f["note"])}</p>' if f.get("note") else ""
+    nt = f.get("note") or FAIL_NOTE.get(f["key"])
+    note = f'<p style="background:#fff7ec;border-left:4px solid var(--orange);padding:8px 12px;border-radius:6px">{E(nt)}</p>' if nt else ""
     return f"""<div class="failcard" id="{f['key'].split('_')[0]}"><h3>{E(f['title'])}</h3><div class="failgrid">
 {art(f['key'], f['alt'], f['ar'])}
 <div><p><span class="chip">증상</span>{E(f['symptom'])}</p>
@@ -442,7 +443,7 @@ def build_index():
     d = "눈을 육각형에서, 머리카락을 덩어리에서 시작해 눈·눈 칠하기·표정·코·귀·입·머리카락의 디테일을 실험으로 익히고, 부위마다 정보량을 맞춘 AI 디테일 문장과 부분 수정으로 옮깁니다. 디테일 실패 8종 진단까지."
     s = head(t, d, "og_index.jpg", "index.html")
     s += nav([("#howto", "읽는 법"), ("#parts", "편 목록"), ("#map", "전체 흐름"), ("#cast", "등장인물"), ("#source", "원리와 출처")])
-    s += cover("cover_index", "연구실 작업실 · 큰 돋보기 앞에 모인 모델 넷, 화가 둘, 평가단 셋", [("fruitfly", "e09"), ("haru", "e01"), ("sia", "e13"), ("moa", "e19"), ("doctor", "e16"), ("jupanbot", "e16")])
+    s += cover("cover_index", "연구실 작업실 · 큰 돋보기 속 눈을 함께 보는 시아·박사·하루·모아, 이젤 앞의 초파리와 주판봇, 뒤에 앉은 평가단 셋", [("fruitfly", "e09"), ("haru", "e01"), ("sia", "e13"), ("moa", "e19"), ("doctor", "e16"), ("jupanbot", "e16")])
     s += f"""<header class="hero"><div class="wrap"><span class="kicker">연구실 특별편 · 그리기와 렌더링 · 네 번째 편</span>
 <h1>구조 먼저 그리기 연구실 04<br>디테일 편 — 육각형 하나, 덩어리 몇 개</h1>
 <p class="lead">얼굴 편에서 원과 기준선으로 얼굴의 자리를 잡았다면, 이번에는 그 자리에 얹는 <b>디테일</b>입니다. 눈은 <b>육각형 하나</b>에서, 머리카락은 <b>덩어리 몇 개</b>에서 시작합니다. 디테일은 '많이'가 아니라 <b>'고르게'</b> 그리는 것이라는 점을 실험으로 확인하고, 마지막에는 그 원리를 <b>AI에게 부위별 문장과 가림 영역으로 알려 주는 법</b>까지 갑니다.</p>
@@ -485,7 +486,7 @@ def build_index():
 <p class="hint" style="margin-top:10px">하루·시아·모아는 20대 성인 연구원, 박사는 30대 성인 남성입니다. 표정·눈 실험에서도 모두 성인 얼굴을 기준으로 합니다.</p></div></section>
 <section id="source"><div class="wrap"><h2>원리와 출처</h2>
 <p>1~4부의 그리기 원리(육각형 밑그림과 눈머리·눈꼬리, 각막·홍채·동공의 앞뒤, 공 위의 눈, 빗금 밀도, 흰자 색과 레이어 칠하기, 눈썹·눈·입으로 만드는 표정, 코를 단순하게 하는 정도, 귀의 자리와 각도, 벌린 입의 이줄, 머리카락의 부피·덩어리·나는 자리·다발 굵기)는 일반적인 캐릭터 그리기 원리이며, KawaiiSensei의 작법서 『いいトコどり! 人物パーツの描き方』(マイナビ出版, 2023) 1장 「顔を描こう」(p.12~46)를 참고해 정리했습니다. 책의 그림·문장·도식·색 값·구성 순서는 옮기지 않았고, 연구실 캐릭터와 직접 움직이는 실험으로 새로 구성했습니다. 얼굴 전체의 비율과 각도는 앞 편 03에서 다뤘으므로 이 편에서는 부위의 디테일만 다룹니다.</p>
-<p>레이어를 겹치는 계산은 Porter·Duff(1984)와 W3C 혼합 모드 규격, 가림 영역 다시 그리기는 확산 모델 연구를 바탕으로 쉽게 풀었습니다(아래 출처). 페이지의 그림(표지 8장은 픽셀아트, 본문·실패·비교 그림은 애니풍)은 Genspark로 만들 예정이며, 그림이 들어오기 전에는 '그림 준비 중' 자리로 둡니다. 실험 패널은 모두 페이지 안에서 직접 계산해 그리므로 그림 없이도 동작합니다.</p></div></section>
+<p>레이어를 겹치는 계산은 Porter·Duff(1984)와 W3C 혼합 모드 규격, 가림 영역 다시 그리기는 확산 모델 연구를 바탕으로 쉽게 풀었습니다(아래 출처). 페이지의 그림(표지 8장은 픽셀아트, 본문·실패·비교 그림은 애니풍)은 Genspark로 만들었습니다. 요청과 다르게 나온 그림은 그림 설명과 '실제 결과'에 있는 그대로 적었습니다. 실험 패널은 모두 페이지 안에서 직접 계산해 그리므로 그림 없이도 동작합니다.</p></div></section>
 """
     s += kg_block("index", [P["file"] for P in PARTS] + ["practice/index.html"])
     s += footer()
