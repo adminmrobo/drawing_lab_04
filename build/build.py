@@ -12,7 +12,7 @@ from img_notes import ALT, DRILL_RES, RETRY_RES, RETRY3_RES, FAIL_NOTE
 from content_drill import DRILL, RETRY, BASE_OF, RETRY3
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VER = "v1.2"
+VER = "v1.3"
 DATE = "2026-11-25"
 SITE = "https://adminmrobo.github.io/drawing_lab_04/"
 PREV_SITE = "https://adminmrobo.github.io/drawing_lab_03/"
